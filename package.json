@@ -5,7 +5,11 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+    "start": "nodemon index.js",
+    "deploy": "node index.js"
+  },
+  "engines": {
+    "node": "16.9.0"
   },
   "keywords": [],
   "author": "",
